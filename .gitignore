@@ -1,12 +1,17 @@
 tmp
 cache
 core
-static
+/static
 local_settings.py
 *.pyc
 passenger_wsgi.py
+db.sqlite3
 
 *.css
 .sass-cache
+<<<<<<< HEAD
 *.DS_Store
 lib/
+=======
+public
+>>>>>>> 24bba8c86925701f498a986501f46ba6d5dd4427
