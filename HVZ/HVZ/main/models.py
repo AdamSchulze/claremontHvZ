@@ -250,6 +250,7 @@ class Player(models.Model):
         game = game or Game.nearest_game()
         return cls.objects.get(game=game, user=u)
 
+
     class Meta:
         # A User can only have one Player per Game, and a feed code
         # can only correspond to one player per game.
